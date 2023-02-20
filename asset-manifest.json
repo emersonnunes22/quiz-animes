@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quiz-animes/static/css/main.2c238c9f.css",
+    "main.js": "/quiz-animes/static/js/main.969a21b7.js",
+    "index.html": "/quiz-animes/index.html",
+    "main.2c238c9f.css.map": "/quiz-animes/static/css/main.2c238c9f.css.map",
+    "main.969a21b7.js.map": "/quiz-animes/static/js/main.969a21b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c238c9f.css",
+    "static/js/main.969a21b7.js"
+  ]
+}
