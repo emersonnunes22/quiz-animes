@@ -1,0 +1,296 @@
+.Menu {
+  width: 100%;
+  min-height: 100vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CardMenu {
+  width: 38em;
+  height: 30em;
+  background-color: #919191;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em 3em;
+  gap: 1em;
+  color: white;
+  border-radius: 1.5em;
+}
+.Apresentacao {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.Apresentacao h1 {
+  font-size: 1.6em;
+  color: #2F2F2F;
+}
+.Apresentacao h2 {
+  font-size: 1.28em;
+  font-weight: 600;
+  color: white;
+}
+.CardMenu form {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.CardMenu form label {
+  font-size: 1.12em;
+  color: #2F2F2F;
+  font-weight: 700;
+}
+.InputMenu {
+  width: 318px;
+  height: 40px;
+  border-radius: 0.5em;
+  padding: 0 0.8em;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0.2em;
+  background-color: #2F2F2F;
+  color: white;
+}
+.CardMenu form:focus, .InputMenu {
+  box-shadow: 0 0 0 0;
+  outline: none;
+  border: none;
+}
+.IniciarQuiz {
+  width: 9em;
+  height: 3.5em;
+  border: none;
+  background-color: #004AAD;
+  border-radius: 0.6em; 
+  color: white;
+}
+.IniciarQuiz p {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.IniciarQuiz:hover {
+  border: solid 0.2em white;
+}
+
+.Quiz {
+  width: 100%;
+  height: 100vh;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Desistir {
+  position: absolute;
+  background-color: #004AAD;
+  padding: 0.6em;
+  top: 1em;
+  right: 1em;
+  color: white;
+  border-radius: 0.4em;
+  font-size: 1.5em;
+}
+.Desistir:hover {
+  border: solid 0.15em white;
+}
+.CardQuiz {
+  width: 30em;
+  min-height: 0vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  color: white;
+}
+.Pergunta {
+  position: relative;
+  width: 100%;
+  height: 12em;
+  background-color: #004AAD;
+  border-radius: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+}
+.Pergunta span {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  padding: 0.28em 0.8em;
+  border-radius: 0.5em;
+}
+.Pergunta h1 {
+  font-size: 1.5em;
+}
+.Pergunta h1.small {
+  font-size: 1.3em;
+}
+.Alternativas {
+  width: 100%;
+  min-height: 0vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.Alternativas li {
+  width: 100%;
+  height: 6.5em;
+  list-style: none;;
+  border-radius: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004AAD;
+  padding: 0em 2.5em;
+}
+.Alternativas li:hover {
+  border: solid 0.2em white;
+}
+.Alternativas li p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.28em;
+}
+#Alts.altcorreta {
+  background-color: green;
+  color: white;
+  pointer-events: none;
+  
+}
+#Alts.altincorreta {
+  background-color: red;
+  color: white;
+  pointer-events: none;
+}
+#Alts p.small {
+  font-size: 1.08em;
+}
+.Score {
+  width: 100%;
+  height: 100vh;;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CardResultado {
+  width: 30em;
+  height: 20em;
+  background-color: #919191;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Pontuacao {
+  width: 100%;
+  height: 42%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.Pontuacao p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.inf-extras {
+  width: 100%;
+  min-height: 0vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.inf-extras button {
+  width: 6em;
+  height: 2.5em;
+  background-color: #004AAD;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+}
+.inf-extras button:hover {
+  border: solid 0.15em white;
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+   .CardMenu {
+    transform: scale(0.7);
+  }
+  .CardQuiz {
+    transform: scale(0.7);
+  }
+  .Desistir {
+    font-size: 1.2em;
+  }
+  .CardResultado {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 660px) and (orientation: portrait) {
+  .CardMenu {
+    max-width: 85%;
+  }
+  .Apresentacao {
+    max-width: 260px;
+  }
+  .CardMenu form {
+    max-width: 260px;
+  }
+  .InputMenu {
+   max-width: 260px;
+  }
+}
+
+@media (min-height: 960px) and (min-width: 720px) and (orientation: portrait) {
+   .CardMenu {
+    transform: scale(1.4);
+  }
+  .CardQuiz {
+    transform: scale(1.4);
+  }
+  .CardResultado {
+    transform: scale(1.5);
+  }
+}
+@media (min-width: 1080px) and (orientation: landscape) {
+  .CardMenu {
+    transform: scale(1.4);
+  }
+  .CardQuiz {
+    transform: scale(1.4);
+  }
+  .CardResultado {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes transicao {
+  0% {
+    transform: translatex(-100%);
+  }
+  100% {
+    transform: translatex(0);
+  }
+}
