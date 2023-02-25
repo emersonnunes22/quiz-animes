@@ -261,6 +261,9 @@
   .InputMenu {
    max-width: 260px;
   }
+  .CardResultado {
+    max-width: 85%;
+  }
 }
 
 @media (min-height: 960px) and (min-width: 720px) and (orientation: portrait) {
