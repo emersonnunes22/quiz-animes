@@ -190,8 +190,8 @@
   align-items: center;
 }
 .CardResultado {
-  width: 30em;
-  height: 20em;
+  width: 38em;
+  height: 30em;
   background-color: #919191;
   border-radius: 1em;
   display: flex;
@@ -271,7 +271,7 @@
     transform: scale(1.4);
   }
   .CardResultado {
-    transform: scale(1.5);
+    transform: scale(1.4);
   }
 }
 @media (min-width: 1080px) and (orientation: landscape) {
@@ -282,7 +282,7 @@
     transform: scale(1.4);
   }
   .CardResultado {
-    transform: scale(1.5);
+    transform: scale(1.4);
   }
 }
 
