@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/quiz-animes/static/css/main.a9d80464.css",
+    "main.css": "/quiz-animes/static/css/main.6080a811.css",
     "main.js": "/quiz-animes/static/js/main.c08261f2.js",
     "index.html": "/quiz-animes/index.html",
-    "main.a9d80464.css.map": "/quiz-animes/static/css/main.a9d80464.css.map",
+    "main.6080a811.css.map": "/quiz-animes/static/css/main.6080a811.css.map",
     "main.c08261f2.js.map": "/quiz-animes/static/js/main.c08261f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9d80464.css",
+    "static/css/main.6080a811.css",
     "static/js/main.c08261f2.js"
   ]
 }
