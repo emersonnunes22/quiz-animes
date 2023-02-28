@@ -168,7 +168,7 @@
   font-size: 1.28em;
 }
 #Alts.altcorreta {
-  background-color: green;
+  background-color: #15D220;
   color: white;
   pointer-events: none;
   
@@ -191,39 +191,47 @@
 }
 .CardResultado {
   width: 38em;
-  height: 30em;
+  height: 26em;
   background-color: #919191;
-  border-radius: 1em;
+  border-radius: 1.5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0em 2.5em;
+  text-align: center;
+}
+.CardResultado h1 {
+  font-size: 2.6em;
 }
 .Pontuacao {
-  width: 100%;
+  width: 85%;
   height: 42%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1em;
 }
+.Pontuacao h2 {
+  width: 100%;
+  text-align: left;
+}
 .Pontuacao p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 500;
 }
 .inf-extras {
-  width: 100%;
+  width: 85%;
   min-height: 0vh;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 2em;
 }
 .inf-extras button {
-  width: 6em;
-  height: 2.5em;
+  width: 8em;
+  height: 2.8em;
   background-color: #004AAD;
   border: none;
   border-radius: 0.5em;
@@ -263,6 +271,12 @@
   }
   .CardResultado {
     max-width: 85%;
+  }
+  .Pontuacao {
+    width: 80%;
+  }
+  .inf-extras {
+    width: 80%;
   }
 }
 
